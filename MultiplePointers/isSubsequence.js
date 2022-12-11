@@ -16,13 +16,13 @@ function isSubsequence(s1, s2) {
       i++
       if(i === s1.length) return true
     }
-    // console.log('j=', s2[j])
+    console.log('j=', s2[j])
     j++
   }
   return false
 }
 
-console.log(isSubsequence('hello', 'hell world')) // true
+console.log(isSubsequence('ello', 'hell world')) // true
 console.log(isSubsequence('sing', 'sting')) // true
 console.log(isSubsequence('abc', 'abracadabra')) // true
 console.log(isSubsequence('abc', 'acb')) // false (order matters)
